@@ -2,3 +2,10 @@ python -m venv fastapi-env
 source fastapi-env/bin/activate
 pip3 install fastapi
 pip3 install uvicorn
+
+Start the server:
+    uvicorn main:app --reload
+
+Documentation:
+    http://localhost:8000/redoc
+    http://localhost:8000/docs
