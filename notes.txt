@@ -1,0 +1,4 @@
+python -m venv fastapi-env
+source fastapi-env/bin/activate
+pip3 install fastapi
+pip3 install uvicorn
